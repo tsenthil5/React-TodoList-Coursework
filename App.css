@@ -1,0 +1,38 @@
+.ToDoList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  border: 10px solid black;
+  padding: 150px;
+  border-radius: 30px;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indItems {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+  margin: 10px;
+  align-items: center;
+}
+.indItems button {
+  width: 50px;
+  height: 40px;
+  font-size: 1em;
+  text-align: center;
+  border: 2px solid black; /* Add a border for better visibility */
+  border-radius: 5px;
+}
+.indItems button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
